@@ -1,0 +1,25 @@
+.test{
+	background: #DCA6A6;
+}
+.leftBlock{
+display: table;
+	text-align: center;
+	width: 20%;
+
+}
+.rightBlock{
+position: absolute; /* Абсолютное позиционирование */
+     width: 40%; /* Ширина слоя в процентах */
+     height: 30%; /* Высота слоя в процентах */
+     left: 50%; /* Положение слоя от левого края */
+     top: 50%; /* Положение слоя от верхнего края */
+     margin-left: -20%; /* Отступ слева */
+     margin-top: -15%; /* Отступ сверху */
+     background: #ABF060; /* Цвет фона */
+     text-align: center;
+     
+
+}
+#myVal{
+	vertical-align: middle;
+}
