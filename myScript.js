@@ -21,4 +21,7 @@ $('li').each(
 	function(index, elem){
 		$(this).html(index);
 	});
+
+/*$('.test').css('color', 'red');*/
+$('li + li').css('color', 'red');
 });
